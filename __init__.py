@@ -1,1 +1,1 @@
-from .vectors_lib import test, plot_vectors
+from .vectors_lib import test, plot, add
