@@ -27,3 +27,7 @@ def plot_vectors(vectors, xlim=(-10, 10), ylim=(-10, 10), figsize=(6, 6)):
     plt.legend()
     plt.show()
 
+
+
+def test():
+    print("ciao")
