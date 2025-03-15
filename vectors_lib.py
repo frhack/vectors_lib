@@ -74,7 +74,16 @@ def add(v1, v2, xlim=(-10, 10), ylim=(-10, 10), figsize=(6, 6)):
 
     return v_sum
 
+def cosine_sim_matrix(vectors):
+  cosine_sim_matrix = cosine_similarity(vectors)
 
+  # Visualizza la heatmap
+  plt.figure(figsize=(6, 5))
+  sns.heatmap(cosine_sim_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
+  plt.title("Heatmap della Similarità del Coseno")
+  plt.xlabel("Vettori")
+  plt.ylabel("Vettori")
+  plt.show()
 
 def test():
     print("ciao")
