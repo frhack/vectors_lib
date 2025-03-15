@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.metrics.pairwise import cosine_similarity
+
 def plot(vectors, xlim=(-10, 10), ylim=(-10, 10), figsize=(6, 6)):
     """
     Plotta una serie di vettori su una griglia cartesiana, assegnando un colore diverso a ciascun vettore.
