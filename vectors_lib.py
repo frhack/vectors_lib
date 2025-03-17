@@ -82,7 +82,7 @@ def sim_matrix(vectors):
   cosine_sim_matrix = cosine_similarity(vectors)
 
   # Visualizza la heatmap
-  plt.figure(figsize=(6, 5))
+  plt.figure(figsize=(8, 6))
   sns.heatmap(cosine_sim_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
   plt.title("Heatmap della Similarità del Coseno")
   plt.xlabel("Vettori")
