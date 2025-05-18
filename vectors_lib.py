@@ -78,6 +78,7 @@ def add(v1, v2, xlim=(-10, 10), ylim=(-10, 10), figsize=(6, 6)):
 
     return v_sum
 
+#
 def sim_matrix(vectors):
   cosine_sim_matrix = cosine_similarity(vectors)
 
